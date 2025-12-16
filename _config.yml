@@ -1,56 +1,44 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
+# Site Information
 title: adrianf.io
+subtitle: Technical Specialist · New Grad
+name: Adrian Flores
 email: adrianf13.mail@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  This website is something I made using GitHub pages, I found out about it from
-  a professor of mine who recommended it. I am using this as a source to put 
-  a few of my projects, my experience, and resume for my goal of becoming 
-  a software engineer. 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  adrian1131
+description: >-
+  This is a website dedicated to myself, my projects, and my resume. This showcases some of the things I have worked on 
+  and built to help further my skills as a software engineer. I love working with technology and building. Programming 
+  ignites my creativitiy, and allows to me to expand my knowledge in the field of computer science and development. 
 
-# Build settings
-theme: jekyll-theme-minimal
+# Site URLs
+baseurl: ""
+url: "https://adrianf.io"
+github_username: adrian1131
+
+# Build Settings
+theme: jekyll-theme-console
+style: dark 
+# other options: light, dark, hacker, nord
+listen_for_clients_preferred_style: true
+markdown: kramdown
 plugins:
-  - jekyll-feed
+  - jekyll-seo-tag
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Include in processing
+include:
+  - _pages
+
+# Author Information
+author:
+  name: Adrian Flores
+  avatar: "/assets/adrian.png"
+  bio: "CS Major @ SCSU · New Grad · Aspiring Software Engineer"
+  location: "New Haven, CT"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/Adrian1131"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/adrianfdev/"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:adrianf13.mail@gmail.com"
