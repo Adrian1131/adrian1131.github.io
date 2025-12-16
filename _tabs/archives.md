@@ -1,5 +1,5 @@
 ---
-layout: archives
-icon: fas fa-archive
-order: 3
+title: Projects
+icon: fas fa-code
+order: 2
 ---
