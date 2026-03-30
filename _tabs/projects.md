@@ -10,7 +10,7 @@ system design, and implementation**.
 ---
 
 ## Quantitative Analytics Data Pipeline 
-**CLI Python-focused Tool**
+**CLI Python-Focused Tool**
 
 A production-style backend that ingests, stores, and analyzes algorithmic trading strategy performance using Postgres, SQLAlchemy, and FastAPI as a service layer.
 
@@ -76,7 +76,7 @@ and no-tumor.
 
 ---
 
-## BlackHole-Sim
+## BlackHole Simulation 
 **Interactive black hole visualization and simulation**
 
 An educational web application that visualizes black hole concepts through
