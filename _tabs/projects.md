@@ -47,8 +47,6 @@ and no-tumor.
 - PyTorch  
 - scikit-learn, matplotlib
 
-[Project Report (PDF)](/assets/pdfs/brain-tumor-mri-classification.pdf)
-
 ---
 
 ## BlackHole-Sim
