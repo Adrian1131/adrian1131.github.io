@@ -9,6 +9,33 @@ system design, and implementation**.
 
 ---
 
+## Quantitative Analytics Data Pipeline 
+**CLI Python-focused Tool**
+
+A production-style backend that ingests, stores, and analyzes algorithmic trading strategy performance using Postgres, SQLAlchemy, and FastAPI as a service layer.
+
+**Key features**
+- Migration Layer 
+- API Layer (Methods, endpoints)
+- CLI Layer (Commands, and descriptions)
+- Metrics for evaluation
+- Natural language queries and SQL Generation 
+- Sample data and testing strategies
+
+**Tech**
+- Python 3.13
+- PostgreSQL (Via Docker)
+- SQLAlchemy 2.0 + Alembic 
+- FastAPI + Uvicorn 
+- Typer + Rich (CLI)
+- Pandas + NumPy 
+- OpenAI API (GPT-4o-mini)
+- Pydantic v2 
+
+[GitHub Repository](https://github.com/Adrian1131/Quant-Analytics)
+
+-- 
+
 ## BidGear
 **Full-stack vehicle listing and auction platform**
 
