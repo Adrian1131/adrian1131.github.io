@@ -34,7 +34,7 @@ A production-style backend that ingests, stores, and analyzes algorithmic tradin
 
 [GitHub Repository](https://github.com/Adrian1131/Quant-Analytics)
 
--- 
+---
 
 ## BidGear
 **Full-stack vehicle listing and auction platform**
