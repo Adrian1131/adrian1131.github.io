@@ -40,7 +40,7 @@ of the one of the biggest wealth creations in the United States, the stock marke
 - **Languages:** Python, JavaScript / TypeScript, Java, SQL, C++, Rust, Haskell
 - **Backend:** Node.js, REST APIs, PostgreSQL
 - **Frontend:** React, modern HTML/CSS  
-- **ML / Data:** PyTorch, scikit-learn, TensorFlow, Hadoop  
+- **ML / Data:** PyTorch, Scikit-learn, TensorFlow, Hadoop  
 - **Tools:** Git, Linux, Docker, VirtualBox, AWS Amplify, Elastic Beanstalk, EC2, CloudFront, CMake
 
 ## Some Books I'm Reading: 
