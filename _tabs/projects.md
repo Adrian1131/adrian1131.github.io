@@ -7,6 +7,12 @@ order: 2
 Below are selected projects that showcase how I approach **problem-solving,
 system design, and implementation**.
 
+## High Performance Market Data Engine 
+**Low-latency market data processing engine built in C++ for a focus on quantitative trading systems.** 
+
+This is a project that I'm making to deepen my understanding of lower-level systems, C++, memory management, and computer architecture. 
+
+
 ---
 
 ## Quantitative Analytics Data Pipeline 
