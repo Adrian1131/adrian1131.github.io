@@ -6,7 +6,7 @@ order: 4
 
 Posts and progress updates from what I am building and learning.
 
-{% assign updates = site.posts | where_exp: "post", "post.categories contains 'Updates' or post.categories contains 'updates'" %}
+{% assign updates = site.posts %}
 
 {% if updates.size > 0 %}
 {% for post in updates %}
@@ -20,9 +20,12 @@ Posts and progress updates from what I am building and learning.
 ---
 {% endfor %}
 {% else %}
-No updates yet. Add a post in `_posts/` with:
+No updates yet. Add a post in `_posts/` with front matter like:
 
 ```yaml
-categories: [Updates]
+---
+title: "Your Post Title"
+date: 2026-04-08 12:00:00 -0400
+---
 ```
 {% endif %}

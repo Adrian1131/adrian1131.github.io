@@ -1,7 +1,6 @@
 ---
 title: "Updates Recently"
 date: 2026-04-08 12:00:00 -0400
-categories:  [Updates]
 ---
 
 Recently I have been doing interview prep to keep my programming skills 
